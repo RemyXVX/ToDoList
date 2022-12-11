@@ -14,6 +14,16 @@ namespace ToDoList.Controllers
       return View(category);
     }
 
+<<<<<<< HEAD
+=======
+    [HttpPost("/items/delete")]
+    public ActionResult DeleteAll()
+    {
+      Item.ClearAll();
+      return View();
+    }
+
+>>>>>>> 6356154b582983472b23da7e42220da8bdd3bb9d
     [HttpGet("/categories/{categoryId}/items/{itemId}")]
     public ActionResult Show(int categoryId, int itemId)
     {
