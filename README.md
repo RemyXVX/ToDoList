@@ -18,7 +18,7 @@
 _Updating on previous project and applying C# into it. Plus testing our lines of code through the Red/Green Method._
 
 ## Webpage
-* https://github.com/RemyXVX/Pierre-s-Bakery-TTD
+* https://github.com/RemyXVX/ToDoList
 
 ## Setup/Installation Requirements
 * _Chrome web browser for best compatiblity_
@@ -31,9 +31,9 @@ _Updating on previous project and applying C# into it. Plus testing our lines of
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Download here](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
 
-* _From there download repo for **Pierre's Bakery**_
+* _From there download repo for **To Do List**_
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Copy here](weblink here)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Copy here](https://github.com/RemyXVX/ToDoList)
 
 ## Step by step breakdown on how to run application: ##
 <br>
@@ -41,7 +41,7 @@ _Updating on previous project and applying C# into it. Plus testing our lines of
 <big>copy by running:</big>
 
 ```
-git clone "[insert place here]"
+git clone "https://github.com/RemyXVX/ToDoList.git"
 ````
 
 <big>I would recommend also setting up work envirnoment after cloning by:</big>
