@@ -8,8 +8,11 @@
 * VSCode
 * GitBash
 * C#
+* HTML
+* JSON
+* MySQL
 * MSTest
-* WindowPowershell
+* WindowPowerShell
 
 ## Description
 _Updating on previous project and applying C# into it. Plus testing our lines of code through the Red/Green Method._
@@ -44,20 +47,33 @@ git clone "[insert place here]"
 <big>I would recommend also setting up work envirnoment after cloning by:</big>
 
 ```
-dotnet build
+$dotnet build
+```
+<big>Once we have the program settled, I would add an '_appsetting.json_' file like:</big>
+```
+$touch appsetting.json
+
+and then add to the file:
+
+{
+  "ConnectionStrings": 
+  {
+    "DefaultConnection": "Server=localhost;Port=3306;database=to_do_list_with_mysqlconnector;uid=[YOUR-USERNAME-HERE];pwd=[YOUR-PASSWORD-HERE];"
+  }
+}
 ```
 
-<big>Afterwards:</big>
+<big>Afterwards,</big>
 
 ```
-dotnet run
+$dotnet run
 ```
 
 <big>This way we can double check for errors in our could that need to be addressed.<br>
 We can then run our test:</big>
 
 ```
-dotnet test
+$dotnet test
 ```
 
 ## Known Bugs
